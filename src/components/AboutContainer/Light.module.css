@@ -1,0 +1,36 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 7.5% 0;
+  background: var(--gradient2);
+  border-top: 1px solid #b9b9b9;
+}
+
+.aboutContainer h2 {
+  font-family: var(--head);
+  color: var(--darkGray);
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  margin: 0 auto 1rem;
+}
+
+.aboutContainer p {
+  font-family: var(--body);
+  color: var(--midGray);
+  font-size: 1.35rem;
+  width: 60%;
+  line-height: 1.7;
+  margin: 0 auto 2rem;
+}
+
+.aboutContainer img {
+  border-radius: 20px;
+  width: 50%;
+}
+
+.aboutContainer p:last-child {
+  margin: 2rem auto 0;
+}

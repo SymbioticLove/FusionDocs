@@ -1,0 +1,41 @@
+{
+  "header": {
+    "image": "https://placehold.co/50",
+    "logoAlt": "React Fusion Logo",
+    "image2": "https://placehold.co/30",
+    "githubAlt": "Fusion GitHub Repository Link"
+  },
+  "hero": {
+    "logo": "https://placehold.co/100",
+    "title": "React Fusion",
+    "subtitle": "A new developmental framework for building full-stack applications with React"
+  },
+  "about": {
+    "title": "About React Fusion",
+    "upperText": "React Fusion is a new ReactJs framework being built to simplify web development and put the power back into the hands of individuals. It is designed to feel no different than developing a standard React application",
+    "lowerText": "Leveraging the powerful architecture of React and Git with Redux data management, as well as a proprietary component library, React Fusion seamlessly blends the most advanced front-end technologies and removes the need for dynamic environments and server components almost entirely",
+    "image": "https://placehold.co/900x300",
+    "imageAlt": "PLACEHOLDER"
+  },
+  "technology": {
+    "title": "The Fusion Architecture",
+    "upperText": "Fusion is built on React, Redux, and Git and applications are structured to be hosted in the static environment provided by GitHub Pages. They will utilize Python programs built around Redux data management and the Git CLI to streamline content management",
+    "lowerText": "The Fusion architecture utilizes a proprietary component library combined with many existing libraries to eliminate the need for a server for most aspects of web development including forms, user registration and login, and even eCommerce. In addition, individuals retain full control of their source code and their apps are created with the most modern and performant technologies",
+    "image": "https://placehold.co/900x300",
+    "imageAlt": "PLACEHOLDER"
+  },
+  "progress": {
+    "title": "Our Progress",
+    "upperText": "React Fusion is still in an early developmental phase. We have released our early alpha setup tool to pip and we have the infrastructure planned, and are beginning to develop some components for our component library. We are also working on the new Fusion website and documentation daily",
+    "lowerText": "You can develop with Fusion right now! Our setup tool has no external dependencies, just Python and Node.js, so you can even install it at your root PATH. With a single command, 'fusion', you'll have a fully formatted Fusion app saved wherever you'd like",
+    "image": "https://placehold.co/900x300",
+    "imageAlt": "PLACEHOLDER"
+  },
+  "setupTool": {
+    "title": "The Fusion Setup Tool",
+    "upperText": "The Fusion Setup Tool is designed to simplify the creation of React apps following the Fusion structure. This includes a basic Redux setup, linting and formatting files set up through ESLint and Prettier, reformatted index, manifest, and package files with appropriate scripts, all related dependencies, a growing collection of existing libraries, and a reformatted App component wrapped with a Router and Provider and with defined routes",
+    "lowerText": "The Fusion Setup Tool alpha version 0.1.18 is available to install through pip. Run the command 'pip install create-fusion-app', run the command 'fusion', and follow the on-screen prompts to name, save, and create your Fusion project. If you use CRA, using CFA instead will save you time and headache!",
+    "image": "https://placehold.co/900x300",
+    "imageAlt": "PLACEHOLDER"
+  }
+}

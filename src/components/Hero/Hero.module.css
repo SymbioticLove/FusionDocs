@@ -1,0 +1,108 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--lightGray);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 7.5% 0;
+}
+
+.inner h1 {
+  font-family: var(--head);
+  color: var(--darkGray);
+  font-size: 3rem;
+  margin: 1.5rem auto 0.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.inner p {
+  font-family: var(--body);
+  color: var(--midGray);
+  margin: 0 auto 1rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.1rem;
+}
+
+.inner div button {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 50px;
+  font-family: var(--body);
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  border: 1px solid var(--darkGray);
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.inner div button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.inner div button:first-child {
+  background: var(--gradient1);
+  animation: gradientAnimation 60s infinite;
+  background-size: 3000% 200%;
+  color: #fff;
+  position: relative;
+}
+
+.inner div button:first-child::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(228, 228, 228, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 11;
+  border-radius: 50px;
+}
+
+.inner div button:first-child:hover::before {
+  opacity: 1;
+}
+
+.inner div button:last-child {
+  background: inherit;
+  position: relative;
+}
+
+.inner div button:last-child::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 11;
+  border-radius: 50px;
+}
+
+/* Show the overlay on hover for the second button */
+.inner div button:last-child:hover::before {
+  opacity: 1; /* Fully visible on hover */
+}
+
+@keyframes gradientAnimation {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}

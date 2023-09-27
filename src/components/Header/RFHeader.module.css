@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+}
+
+.logoContainer {
+  width: 10%;
+}
+
+.search {
+  width: 60%;
+}
+
+.container {
+  width: 30%;
+}
